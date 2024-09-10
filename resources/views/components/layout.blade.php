@@ -50,7 +50,7 @@
                 @endauth
 
                 @guest
-                    <div>
+                    <div class="flex items-center space-x-6">
                         <a href="/login">Log In</a>
                         <a href="/register">Register</a>
                     </div>
