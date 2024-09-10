@@ -7,8 +7,17 @@ export default {
     ],
     theme: {
         extend: {
-            "black": "#060606"
+            colors: {
+                black: "#060606",
+            },
+            fontFamily: {
+                sans: ["Hanken Grotesk", "sans-serif"],
+            },
+            fontSize: {
+                "2xs": ".625rem",
+                "3xs": ".5rem",
+            },
         },
     },
     plugins: [],
-}
+};
