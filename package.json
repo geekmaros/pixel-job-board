@@ -15,5 +15,8 @@
     },
     "dependencies": {
         "prettier-plugin-blade": "^2.1.19"
+    },
+    "engines": {
+        "node": "18.x"
     }
 }
